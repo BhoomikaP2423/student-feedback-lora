@@ -54,15 +54,9 @@ The model was fine-tuned using LoRA on 10 illustrative student feedback examples
 - Automated tests: 7 passed
 - LoRA adapter and merged model: Saved successfully
 
-See [Results and Evaluation](results/RESULTS.md) for training details, baseline comparison, and limitations.
 
-### Screenshots
 
-**Training output**
 
-![Training output](docs/screenshots/training.png)
-
-**Application demo**
 
 ![Streamlit application](docs/screenshots/app-demo.png)
 
