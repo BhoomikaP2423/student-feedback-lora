@@ -1,4 +1,5 @@
 # Student Feedback Summarizer (LoRA)
+VERIFIED [![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/tw47kbncs8/badge.svg)](https://msrit.ask.thili.ai/b/tw47kbncs8)
 
 A small educational project that fine-tunes a pretrained instruction model with LoRA on student feedback and provides a Streamlit interface for concise curriculum-improvement summaries.
 
