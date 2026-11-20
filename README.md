@@ -45,3 +45,27 @@ In Colab, use a tunnel such as `localtunnel` only if you understand its public-a
 - Fine-tuning: supervised seq2seq training with LoRA adapters via Hugging Face PEFT.
 - Merge: `PeftModel.merge_and_unload()` creates a standalone merged model for the Streamlit app.
 - Evaluation: training/evaluation loss is logged by Trainer. No benchmark score is claimed.
+## Results and Evaluation
+
+The model was fine-tuned using LoRA on 10 illustrative student feedback examples for 3 epochs.
+
+- Training loss: 4.3769
+- Trainable parameters: 344,064 (0.4451%)
+- Automated tests: 7 passed
+- LoRA adapter and merged model: Saved successfully
+
+See [Results and Evaluation](results/RESULTS.md) for training details, baseline comparison, and limitations.
+
+### Screenshots
+
+**Training output**
+
+![Training output](docs/screenshots/training.png)
+
+**Application demo**
+
+![Streamlit application](docs/screenshots/app-demo.png)
+
+**Test results**
+
+![Test results](docs/screenshots/tests.png)
