@@ -1,0 +1,8 @@
+torch>=2.2.0
+transformers>=4.44.0,<5
+datasets>=2.20.0
+peft>=0.12.0
+accelerate>=0.33.0
+sentencepiece>=0.2.0
+streamlit>=1.37.0
+pytest>=8.0.0
